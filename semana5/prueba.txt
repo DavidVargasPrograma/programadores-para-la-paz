@@ -1,0 +1,8 @@
+Ruta 1 (http://localhost:3000 / raíz):
+Muestra el mensaje "Servidor activo". Confirma que el servidor de Express está encendido, escuchando peticiones en el puerto 3000 y respondiendo de forma correcta a la raíz del sitio.
+
+Ruta 2 (http://localhost:3000/saludo):
+Muestra el mensaje "Hola comunidad". Es una ruta estática que devuelve un texto fijo cuando el usuario accede explícitamente a la dirección "/saludo".
+
+Ruta 3 (http://localhost:3000/mensaje/juan):
+Muestra el mensaje "Hola juan". Utiliza un parámetro dinámico llamado ":nombre" en la URL (req.params.nombre), lo que permite al servidor capturar cualquier nombre que se escriba en la dirección y saludarlo de forma personalizada.

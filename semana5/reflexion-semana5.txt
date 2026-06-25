@@ -1,0 +1,9 @@
+Las APIs actúan como puentes tecnológicos que permiten centralizar y organizar
+la información comunitaria, conectando reportes ciudadanos con soluciones reales.
+Al estandarizar la forma en que se envían los datos mediante formatos como JSON,
+las APIs aseguran que las alertas sobre infraestructura, seguridad o servicios
+lleguen de manera instantánea y ordenada a los servidores correspondientes.
+Además, facilitan la interoperabilidad entre diferentes plataformas vecinales,
+permitiendo que una aplicación móvil y una página web compartan una misma base.
+Esto agiliza los tiempos de respuesta de los comités y evita la desinformación.
+Finalmente, promueven la transparencia al permitir auditorías de la gestión.

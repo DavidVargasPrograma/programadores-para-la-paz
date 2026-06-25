@@ -1,0 +1,9 @@
+1. ¿Qué hace esta ruta?
+Esta ruta configura un punto de acceso (endpoint) que utiliza el método HTTP POST para recibir datos de forma segura en el cuerpo de la petición (req.body). El servidor extrae la propiedad "mensaje", la procesa y devuelve una respuesta estructurada en formato JSON confirmando el estado ("Reporte recibido") junto con el contenido original enviado por el usuario.
+
+2. ¿Para qué podría servir en una aplicación comunitaria?
+En una plataforma comunitaria, esta ruta sería fundamental para que los ciudadanos interactúen y envíen alertas de forma activa. Podría utilizarse para:
+- Registrar reportes de fallas en servicios públicos (por ejemplo, luminarias rotas o baches).
+- Enviar sugerencias o iniciativas ciudadanas directamente a la mesa directiva.
+- Denunciar de forma confidencial problemas de seguridad o convivencia en el barrio.
+- Publicar avisos comunitarios, como la pérdida de una mascota o convocatorias a asambleas.
