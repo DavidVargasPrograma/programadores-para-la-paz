@@ -1,0 +1,9 @@
+Las tecnologías abiertas como Node.js otorgan a las comunidades una ventaja
+crucial: la soberanía tecnológica, permitiéndoles desarrollar herramientas
+adaptadas exactamente a sus realidades sin depender de costosas licencias.
+Al utilizar este entorno basado en JavaScript, un lenguaje muy popular,
+se democratiza el aprendizaje técnico y se facilita el relevo de voluntarios.
+Además, el software libre garantiza total transparencia en el manejo de datos,
+eliminando las cajas negras de los algoritmos comerciales y la exclusión.
+Esto fomenta la confianza ciudadana, promoviendo una participación activa.
+Finalmente, permite escalar proyectos gratis conforme crecen las necesidades.
