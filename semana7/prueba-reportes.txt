@@ -1,0 +1,44 @@
+PRUEBA DE CONSULTA Y AGREGACIÓN DE REPORTES
+-------------------------------------------
+Fecha: 26 de junio de 2026
+API: Servidor de Reportes Comunitarios
+
+1. PRUEBA DE REGISTRO (POST /reportes)
+Al enviar un nuevo reporte mediante el método POST, el servidor confirma
+la recepción inmediata y devuelve el objeto creado con su ID asignado.
+
+Datos enviados:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Respuesta del servidor (Confirmación):
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+2. PRUEBA DE CONSULTA (GET /reportes)
+Al consultar la ruta mediante el método GET, el servidor devuelve un array
+(lista) que contiene todos los reportes almacenados actualmente.
+
+Respuesta del servidor (Lista de datos):
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+EXPLICACIÓN DEL COMPORTAMIENTO:
+La diferencia clave es que POST devuelve un objeto único con un mensaje
+de éxito ("Reporte registrado"), mientras que GET devuelve una lista (array)
+encerrada en corchetes "[...]", lo que permite al frontend iterar y mostrar
+todos los casos reportados por la comunidad. El ID "1" confirma que es el
+primer registro en la base de datos temporal del servidor.Copied!   

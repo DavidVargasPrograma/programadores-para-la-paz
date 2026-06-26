@@ -1,0 +1,19 @@
+EJEMPLOS DE REPORTES CIUDADANOS
+-------------------------------
+Los siguientes ejemplos representan nuevos casos de incidencia que los
+ciudadanos pueden registrar en la plataforma comunitaria.
+
+Ejemplo 1 (Servicios Públicos - Agua):
+{
+  "tipo": "Servicios Públicos",
+  "descripcion": "Fuga de agua visible en la tubería principal de la avenida central que lleva activa más de 24 horas."
+}
+
+Ejemplo 2 (Convivencia - Ruido):
+{
+  "tipo": "Convivencia",
+  "descripcion": "Ruido excesivo por música a alto volumen en zona residencial después de las 10:00 PM los fines de semana."
+}
+
+Nota: Estos formatos JSON permiten categorizar claramente problemas de
+infraestructura hidráulica y alteraciones del orden público para su gestión.Copied!   
