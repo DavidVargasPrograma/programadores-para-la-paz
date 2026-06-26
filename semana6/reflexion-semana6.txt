@@ -1,0 +1,13 @@
+REFLEXIÓN SEMANA 6: IMPORTANCIA DE LOS DATOS ESTRUCTURADOS
+----------------------------------------------------------
+Es fundamental que las plataformas tecnológicas reciban reportes ciudadanos
+de forma estructurada porque esto permite automatizar el procesamiento de
+la información, eliminando errores de interpretación humana y agilizando
+la clasificación de los casos por urgencia o tipo. Al estandarizar los
+datos (usando formatos como JSON), se facilita la creación de estadísticas
+confiables y mapas de calor que ayudan a los gobernantes a identificar
+patrones de problemas recurrentes en territorios específicos. Además, la
+estructura garantiza que ningún reporte se pierda en textos libres o
+ambiguos, asegurando que cada incidencia tenga un seguimiento trazable
+y transparente, lo cual fortalece la confianza entre la comunidad y las
+instituciones al demostrar respuestas oportunas y basadas en evidencia.

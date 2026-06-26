@@ -1,0 +1,27 @@
+PRUEBA DE API - REGISTRO DE USUARIO
+-----------------------------------
+Fecha: 26 de junio de 2026
+Método: POST
+URL: https://fuzzy-system-vp6x9v7x49v4fx69v-3000.app.github.dev/registro
+
+Datos enviados (Body):
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta del servidor (Status 200 OK):
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación:
+El servidor respondió correctamente con un código de estado 200.
+El objeto JSON devuelto confirma que los datos fueron recibidos,
+parseados y retornados exitosamente por la ruta '/registro' en la URL:
+https://fuzzy-system-vp6x9v7x49v4fx69v-3000.app.github.dev/registro
+
+La respuesta indica que el middleware express.json() funcionó correctamente,
+permitiendo leer las propiedades 'nombre' y 'mensaje' del cuerpo de la petición.   

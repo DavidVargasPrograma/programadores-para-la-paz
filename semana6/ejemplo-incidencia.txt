@@ -1,0 +1,20 @@
+EJEMPLO DE REPORTE DE INCIDENCIA CIUDADANA
+------------------------------------------
+Ruta del servidor: POST /incidencia
+Formato de datos: JSON
+
+Ejemplo de petición (Body):
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+Respuesta esperada del servidor (Status 200 OK):
+{
+  "mensaje": "Incidencia registrada",
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+Nota: Este formato permite a los ciudadanos reportar problemas específicos
+de manera estructurada para su posterior gestión por las autoridades.   
