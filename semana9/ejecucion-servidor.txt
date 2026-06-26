@@ -1,0 +1,6 @@
+1. abre el navegador y el servidor en el puerto 3000
+2. servidor ejecutandose en puerto 3000
+3. {
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}

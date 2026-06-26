@@ -1,0 +1,14 @@
+Sistema operativo:
+Es el software base que administra los componentes físicos del servidor (como memoria y procesador) y proporciona el entorno seguro para que otros programas puedan ejecutarse correctamente.
+
+Node.js:
+Es el entorno de ejecución de código que permite procesar JavaScript directamente en el servidor, traduciendo las instrucciones del programa para que la máquina las ejecute de forma rápida.
+
+Aplicación server.js:
+Es el archivo principal que contiene el código de nuestra aplicación web, encargado de definir las rutas de navegación, conectar las bases de datos y responder a las peticiones del usuario.
+
+Puerto:
+Es una puerta de enlace virtual o punto final de comunicación numerado en el servidor que permite canalizar y recibir las solicitudes de internet dirigidas a una aplicación específica.
+
+Logs:
+Son archivos de texto que registran de forma ordenada y cronológica todas las actividades, accesos y errores del servidor, sirviendo como bitácora para solucionar fallas en el sistema.
