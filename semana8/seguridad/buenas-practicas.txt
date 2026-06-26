@@ -1,0 +1,3 @@
+1. No entrar a sitios web sin verificar credenciales de seguridad
+2. no guardar contraseñas en la cuenta de google
+3. no abrir links que le envia una persona deconocida en whatsapp

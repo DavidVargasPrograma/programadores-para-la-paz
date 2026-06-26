@@ -1,0 +1,2 @@
+Al escribir uname -a, verás datos como el nombre del sistema (Linux), el nombre de tu máquina, la versión del núcleo (kernel) y la arquitectura de tu procesador (por ejemplo, x86_64).
+Al escribir whoami, verás el nombre exacto del usuario actual con el que tienes sesión iniciada (por ejemplo, root o tu nombre de usuario)

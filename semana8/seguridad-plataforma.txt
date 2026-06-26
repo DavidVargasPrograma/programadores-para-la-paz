@@ -1,0 +1,14 @@
+1. Implementar autenticación de dos factores (2FA) obligatoria:
+Exigir que todos los administradores y moderadores de la plataforma usen un segundo método de verificación (como una aplicación de códigos en su celular) además de su contraseña, evitando que un atacante tome el control de la comunidad si llega a robar una clave.
+
+2. Automatizar respaldos periódicos y cifrados (Backups):
+Configurar copias de seguridad automáticas de toda la información y base de datos de la plataforma, almacenándolas de forma cifrada en un servidor totalmente independiente para poder recuperar el sitio rápidamente en caso de un ataque de secuestro de datos (ransomware).
+
+3. Establecer un protocolo de actualización continua de software:
+Mantener el sistema operativo, los plugins y todo el código base de la plataforma actualizados a su última versión de forma regular, lo que permite parchar vulnerabilidades públicas antes de que personas con malas intenciones intenten explotarlas.
+
+4. Aplicar el principio de menor privilegio en la asignación de roles:
+Configurar la plataforma para que los nuevos colaboradores o moderadores tengan únicamente los permisos mínimos necesarios para realizar su tarea específica, evitando asignar la cuenta de "Administrador General" a múltiples personas.
+
+5. Crear un canal seguro y privado para el reporte de vulnerabilidades:
+Habilitar un espacio o correo exclusivo para que los miembros de la comunidad o desarrolladores externos puedan reportar fallos de seguridad de forma privada, permitiendo al equipo técnico corregir el error antes de que se haga público y afecte a los usuarios.
